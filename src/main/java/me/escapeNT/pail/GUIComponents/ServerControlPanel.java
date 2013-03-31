@@ -274,7 +274,7 @@ public final class ServerControlPanel extends javax.swing.JPanel implements Loca
         BufferedImage skin;
         BufferedImage face;
         try {
-            skin = ImageIO.read(new URL("http://www.minecraft.net/skin/" + name + ".png"));
+            skin = ImageIO.read(new URL("http://skins.minecraft.net/MinecraftSkins/" + name + ".png"));
             face = skin.getSubimage(8, 8, 8, 8);
             face = resize(face, 23, 23, true);
         } catch (Exception ex) {
